@@ -1,0 +1,13 @@
+.VideoPlayer {
+  width: 100vw;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #151515;
+}
+
+.VideoPlayer video {
+  width: 80vw;
+  height: auto;
+}

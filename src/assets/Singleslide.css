@@ -1,0 +1,49 @@
+.slidecart {
+  height: 2.2in;
+  width: 170px;
+  border: 1px solid black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 0.5rem;
+  transition: transform 0.5s ease;
+  transform: scale(1);
+  cursor: pointer;
+  margin: 1rem;
+}
+
+.splide__slide is-prev is-visible {
+  margin-left: 0;
+}
+
+.slidecart:hover {
+  transform: scale(1.08);
+  box-shadow: 1px 1px 5px 1px rgba(93, 0, 255, 0.618);
+}
+
+.slidecart:active {
+  box-shadow: 1px 1px 5px 1px rgba(234, 255, 0, 0.618);
+}
+.slidecart h1 {
+  background-color: rgb(93, 0, 255);
+  width: fit-content;
+  padding: 10px;
+  border-radius: 50%;
+  margin: 0.2rem;
+  color: white;
+}
+
+@media (max-width: 1216px) {
+  .slidecart {
+    height: 2in;
+    width: 150px;
+    border: 1px solid black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+    transition: transform 0.5s ease;
+    transform: scale(1);
+    cursor: pointer;
+  }
+}

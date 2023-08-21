@@ -1,0 +1,82 @@
+.SearchPage {
+  background-color: #151515;
+  color: white;
+  height: max-content;
+  padding: 2rem;
+}
+.SearchPage input {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.8rem;
+  padding-left: 2rem;
+  border: none;
+  border-radius: 2rem;
+  font-size: 1.1rem;
+}
+
+.SearchPage input::placeholder {
+  color: gray;
+}
+
+.Searchdatasection {
+  height: max-content;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr repeat(5, 1fr);
+  gap: 1rem;
+  grid-auto-rows: minmax(
+    100px,
+    auto
+  ); /* Adjust the minimum and maximum row heights as needed */
+}
+
+.notfound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 5rem;
+  width: 80vw;
+}
+
+.notfound img {
+  max-width: 150px;
+}
+.notfound p {
+  text-align: center;
+}
+
+/* Responsive adjustments */
+
+@media (max-width: 1362px) {
+  .Searchdatasection {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
+
+@media (max-width: 1200px) {
+  .Searchdatasection {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .Searchdatasection {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .Searchdatasection {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 444px) {
+  .Searchdatasection {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+}

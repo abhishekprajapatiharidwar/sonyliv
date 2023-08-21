@@ -1,0 +1,9 @@
+.Shows_slide {
+  height: max-content;
+  width: 100%;
+  padding: 10px;
+}
+
+.Shows_slide h5 {
+  color: white;
+}

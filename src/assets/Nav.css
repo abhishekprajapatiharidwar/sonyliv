@@ -1,0 +1,143 @@
+.nav {
+  background-color: rgba(0, 0, 0, 0.575);
+  width: 100%;
+  display: flex;
+  position: fixed;
+  z-index: 100;
+}
+
+.nav::-webkit-scrollbar {
+  display: none;
+}
+
+.navlogo {
+  width: 15%;
+  padding: 1.5px;
+  display: flex;
+  align-items: center;
+}
+
+.navsubscribebtn {
+  margin-left: 10px;
+  border: none;
+  border-radius: 2px;
+  outline: none;
+  color: white;
+  text-align: center;
+  background-image: url("https://images.slivcdn.com/UI_icons/smart_hook/rectangleCopy_smart_Hook_Background.png?w=110&q=eco&fr=webp");
+  background-position: center;
+  background-size: cover;
+}
+
+.navsubscribebtn span {
+  margin-left: 1.2px;
+}
+
+.navlogo img {
+  margin-left: 1rem;
+  max-width: 30px;
+}
+
+.navmenu {
+  width: 70%;
+  display: flex;
+  visibility: visible;
+}
+
+.menulist {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.7rem 0 0.7rem;
+}
+
+.menulist:hover {
+  border-bottom: 1px solid white;
+}
+
+.active {
+  border-bottom: 1px solid white;
+}
+
+.menulist a {
+  color: white;
+  text-decoration: none;
+  font-size: 0.8rem;
+}
+
+.navprofile {
+  width: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navprofile img {
+  max-width: 25px;
+}
+
+.container {
+  position: relative;
+}
+
+.NavProfilecont {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 230px;
+  right: 1rem;
+  padding: 6px;
+  margin-right: 10px;
+  z-index: 1000;
+}
+
+.profileicon:hover + .NavProfilecont,
+.NavProfilecont:hover {
+  display: block;
+}
+
+.profileicon img:hover {
+  cursor: pointer;
+}
+
+.togglemenubtn {
+  display: none;
+}
+
+@media (max-width: 918px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.968);
+    height: fit-content;
+  }
+
+  .navlogo,
+  .navprofile {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .navmenu {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .menulist {
+    margin: 5px 0;
+  }
+  .navprofile {
+    width: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    right: 0;
+  }
+
+  .togglemenubtn {
+    display: block;
+  }
+}

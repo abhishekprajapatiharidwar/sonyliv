@@ -1,0 +1,112 @@
+.profile-container {
+  text-align: center;
+  padding: 20px;
+  background-color: #151515;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 2.5rem;
+  color: white;
+}
+
+.edit-image {
+  margin-top: 10px;
+}
+
+.username {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #ffc900;
+}
+
+.email {
+  margin-top: 5px;
+}
+
+.signout-button {
+  margin-top: 20px;
+}
+
+.email {
+  color: white;
+}
+
+.editdetail {
+  color: white;
+  font-size: 1rem;
+}
+
+#email::placeholder{
+  color: white;
+
+padding-left: 0.5rem;
+}
+
+.detailspasswordchange {
+  background-color: rgb(44, 44, 44);
+  padding: 1rem;
+  margin: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
+  border-radius: 0.5rem;
+}
+
+.password-update-form {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.password-update-form input {
+  margin: 0.2rem;
+  border: none;
+  background-color: gray;
+  padding: 0.2rem;
+  color: white;
+  border-radius: 0.2rem;
+}
+
+.password-update-form button {
+  background-color: #ffd230;
+  border: none;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  color: black;
+  font-weight: 500;
+}
+
+.password-update-form button:hover {
+  background-color: #ffc900;
+}
+
+.password-update-form button:active {
+  background-color: blueviolet;
+  color: white;
+}
+
+@media (max-width: 517px) {
+  .profile-container {
+    padding-top: 3.8rem;
+  }
+
+  .detailspasswordchange {
+    padding-left: 0rem;
+    padding-right: 0rem;
+    border-radius: 0.5rem;
+  }
+}
+
+.sattingloginbtn{
+  background-color: rgb(255, 30, 30);
+  color: white;
+  padding: 0.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  border-radius: 0.5rem;
+}
+.sattingloginbtn:hover{
+  color: white;
+  text-decoration: none;
+  background-color: red;
+}

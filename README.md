@@ -1,2 +1,8 @@
-# sonyliv
-mmerse yourself in our SonyLIV UI Clone project. With a faithful recreation of the user interface, explore a range of categories, seamlessly toggle between login and logout functionalities. Experience the essence of SonyLIV's intuitive design while enjoying easy navigation and category-based content discovery.
+# React + Vite
+
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

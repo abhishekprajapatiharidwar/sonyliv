@@ -1,0 +1,51 @@
+.WatchList {
+  background-color: #151515;
+  padding: 2.5rem;
+  padding-top: 4rem;
+  color: white;
+}
+
+.listname {
+  padding: 1rem;
+  color: #ffc900;
+}
+
+.WatchList p::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 1px;
+  background-color: #ffc900;
+}
+
+.allfilterdata {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 40px;
+  background-color: #151515;
+}
+@media (max-width: 1200px) {
+  .allfilterdata {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 900px) {
+  .allfilterdata {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .allfilterdata {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 444px) {
+  .allfilterdata {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally */
+  }
+}
