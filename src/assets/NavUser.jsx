@@ -65,7 +65,7 @@ export default function NavUser() {
       <NavLink style={{ textDecoration: "none" }} to="/satting">
         <DropeLists
           droplogo={<SettingsIcon style={{ color: "white" }} />}
-          droptext={"Sattings & Preference"}
+          droptext={"Settings & Preference"}
         />
       </NavLink>
     </>

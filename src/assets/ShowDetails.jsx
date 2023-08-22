@@ -126,7 +126,7 @@ const ShowDetails = (props) => {
   };
    // Function to handle sharing through the Web Share API
   const handleShare = () => {
-    const url = `http://127.0.0.1:5173/showdetails/`;
+    const url = `https://sonylivclone.netlify.app/showdetails/${id}`;
     if (navigator.share) {
       navigator
         .share({

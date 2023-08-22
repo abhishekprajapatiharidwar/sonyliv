@@ -18,7 +18,7 @@
 
 .slidecart:hover {
   transform: scale(1.08);
-  box-shadow: 1px 1px 5px 1px rgba(93, 0, 255, 0.618);
+  box-shadow: 1px 1px 8px 1px rgba(93, 0, 255, 0.648);
 }
 
 .slidecart:active {

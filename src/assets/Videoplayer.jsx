@@ -29,9 +29,11 @@ const VideoPlayer = ({ videoUrl }) => {
       videoRef.current.play();
     }
   }, [Singledetaildata]);
+  console.log(currenvideo);
 
   return (
     <div className="VideoPlayer">
+      <h4>{currenvideo.title}</h4>
       <video ref={videoRef} src={currenvideo?.video_url} controls>
         Your browser does not support the video tag.
       </video>
