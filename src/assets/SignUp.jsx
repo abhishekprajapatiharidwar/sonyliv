@@ -32,7 +32,7 @@ export default function Signup({ handleToggle }) {
       password === ""
     ) {
       toast.error("Fields cannot be empty");
-      console.log("cantbe empty");
+ 
     }
     if (!email.includes("@" && ".")) {
       toast.error("Invalid email address");

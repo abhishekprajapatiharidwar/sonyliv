@@ -54,7 +54,6 @@ function Detailactionbtn(props) {
 function AddList(props) {
   const { id } = useParams();
   const { dataadd, setdataadd, login } = useContext(MyContext);
-
   const listadd = async () => {
     if (login) {
       const jwtToken = localStorage.getItem("token");
