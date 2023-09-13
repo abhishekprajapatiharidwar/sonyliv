@@ -8,7 +8,8 @@ export default function Catagery(props) {
   const itemsPerPage = 20;
 
   // API fetching data
-  const apiUrl = `https://academics.newtonschool.co/api/v1/ott/show?filter={"type" : "${props.catfilter}"}`;
+  // const apiUrl = `https://academics.newtonschool.co/api/v1/ott/show?filter={"type" : "${props.catfilter}"}`;
+  const apiUrl=`https://academics.newtonschool.co/api/v1/ott/show?page=1&limit=200&filter={"type": "${props.catfilter}"}`;
   const headers = {
     projectId: "62b02tyexb5i",
   };

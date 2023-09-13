@@ -7,7 +7,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 
 const Home = () => {
   const [apiData, setApiData] = useState([]);
-  const apiUrl = "https://academics.newtonschool.co/api/v1/ott/show";
+  const apiUrl = "https://academics.newtonschool.co/api/v1/ott/show?page=1&limit=1000";
   const headers = {
     projectId: "62b02tyexb5i",
   };
