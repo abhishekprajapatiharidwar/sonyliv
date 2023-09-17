@@ -1,7 +1,7 @@
  # Sony LIV Clone
 Introducing a bespoke streaming platform inspired by SonyLIV! Our cutting-edge clone boasts a curated collection of content, categorized for seamless exploration. Dive into show specifics, enjoy playback of a vast video library, and craft personalized playlists with ease. Elevating the experience, our platform offers secure online signup, login storage, and hassle-free password alteration. Discover entertainment anew with our SonyLIV replica, where categories, playback, playlist creation, and enhanced user control redefine streaming.
 
-## Features of Votely
+## Features of SonyLIV
 + **Diverse Content Categories:** Explore a wide array of content categories for a tailored entertainment experience.
 + **Detailed Show Information:** Access comprehensive details about shows for informed viewing choices.
 + **Seamless Video Playback:** Enjoy smooth playback of an extensive video library for uninterrupted entertainment.
